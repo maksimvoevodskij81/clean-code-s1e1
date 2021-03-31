@@ -57,8 +57,8 @@ button:hover {
     color: #3a3A3a;
 }
 /* Heading */
-h3,
-label[for="new-task"] {
+
+.title {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -144,11 +144,11 @@ ul li input[type="text"] {
     display:none
 }
 
-ul li.edit-mode input[type="text"] {
+ul li .edit-mode input[type="text"] {
     display:inline-block;
     width:224px
 }
 
-ul li.edit-mode label {
+ul li .edit-mode label {
     display:none;
 }
