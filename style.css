@@ -89,11 +89,10 @@ button {
 }
 
 /* New Task */
-label[for="new-task"] {
+.lable-add {
   display: block;
   margin: 0 0 20px;
 }
-/* //здесь */
 
 #new-task {
   width: 318px;
@@ -119,7 +118,7 @@ li > * {
 .checkbox {
   margin: 0 10px;
 }
-li > label {
+.label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -142,7 +141,7 @@ li > label {
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
@@ -156,7 +155,6 @@ ul#completed-tasks label {
   display: inline-block;
   width: 224px;
 }
-
 .edit-mode label {
   display: none;
 }
