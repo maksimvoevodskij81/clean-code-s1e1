@@ -90,10 +90,12 @@ label[for="new-task"] {
     display: block;
     margin: 0 0 20px;
 }
-input#new-task {
+/* //здесь */
+
+#new-task {
     width: 318px;
 }
-p > button:hover {
+p > .button:hover {
     color: #0FC57C;
 }
 
