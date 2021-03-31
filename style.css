@@ -93,10 +93,11 @@ button {
   display: block;
   margin: 0 0 20px;
 }
-
 #new-task {
+  display: inline-block;
   width: 318px;
 }
+
 .button-add:hover {
   color: #0fc57c;
 }
@@ -123,9 +124,6 @@ li > * {
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
-}
-#new-task {
-  display: inline-block;
 }
 
 .button.delete :hover {
