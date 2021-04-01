@@ -40,13 +40,13 @@ var createNewTaskElement=function(taskString){
     checkBox.style.margin='0px 10px'
     editInput.type="text";
     const classesForInputText=['task','input-text']
-    editInput.classList.add(...classesForInputText)     //className="task";
+    editInput.classList.add(...classesForInputText)    
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
     const classesForEditBtn=['edit','button'];
-    editButton.classList.add(...classesForEditBtn)         //className="edit";
+    editButton.classList.add(...classesForEditBtn)         
     const classesForDeleteBtn=['delete','button'];
-    deleteButton.classList.add(...classesForDeleteBtn)       //className="delete";
+    deleteButton.classList.add(...classesForDeleteBtn)       
     deleteButtonImg.src='./remove.svg';
     deleteButton.appendChild(deleteButtonImg);
 
