@@ -16,6 +16,10 @@ input,
 main__button {
   outline: none;
 }
+button:focus,
+button:active {
+  outline: none;
+}
 
 /* Image */
 .header__img {
